@@ -1,0 +1,32 @@
+import styled from 'styled-components';
+
+export const StyledMenu = styled.nav`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: transparent;
+  transform: ${({ open }) => open ? 'translateY(0)' : 'translateY(-100%)'};
+  height: 50vh;
+  text-align: left;
+  padding: 2rem;
+  position: absolute;
+  top: 0;
+  left: 823px;
+  transition: transform 0.3s ease-in-out;
+
+  a {
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 2rem 0;
+    font-weight: normal;
+    letter-spacing: 0.5rem;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s linear;
+
+    &:hover {
+      color: gray};
+    }
+  }
+`;
