@@ -1,0 +1,280 @@
+$font-color:                 #ffffff !default;
+$fill-font-color:            rgb(255, 255, 255);
+$font-family-sans-serif:     'Montserrat', "Helvetica", Arial, sans-serif;
+
+$none:                       0   !default;
+$border-thin:                1px !default;
+$border-thick:               2px !default;
+
+$white-color:                #FFFFFF !default;
+$white-bg:                   #FFFFFF !default;
+$white-states-color:         rgba($white-color, 0.8);
+
+$smoke-bg:                   #F5F5F5 !default;
+$pale-bg:                    #FFFCF5 !default;
+$medium-pale-bg:             #F1EAE0 !default;
+
+$table-line-color:           #ccc !default;
+$muted-color:                #a49e93 !default;
+
+$black-bg:                   rgba(0, 0, 0, 0.97) !default;
+
+$black-color:                #000000 !default;
+$black-hr:                   #000000 !default;
+
+$light-gray:                 #E3E3E3 !default;
+$medium-gray:                #DDDDDD !default;
+$dark-gray:                  #9A9A9A !default;
+
+$placeholder-gray:           rgba(210, 210, 210, 1)  !default;
+
+$gray-input-bg:              #fffcf5 !default;
+$danger-input-bg:            #FFC0A4 !default;
+$success-input-bg:           #ABF3CB !default;
+$other-medium-gray:          #A49E93 !default;
+$transparent-bg:             transparent !default;
+
+$default-color:              #000000 !default;
+$default-bg:                 #000000 !default;
+$default-states-color:       #000000 !default;
+
+$primary-color:              #51cbce !default;
+$primary-states-color:       darken($primary-color, 10%) !default;
+
+$success-color:              #6bd098 !default;
+$success-states-color:       darken($success-color, 10%) !default;
+
+$info-color:                 #51bcda !default;
+$info-states-color:          darken($info-color, 10%) !default;
+
+$warning-color:              #fbc658 !default;
+$warning-states-color:       darken($warning-color, 10%) !default;
+
+$danger-color:               #f5593d !default;
+$danger-states-color:        darken($danger-color, 8%) !default;
+
+$link-disabled-color:        #666666 !default;
+
+$purple-color:               #c178c1 !default;
+$purple-states-color:        darken($purple-color, 8%) !default;
+
+$brown-color:                #dcb285 !default;
+$brown-states-color:         darken($brown-color, 8%) !default;
+
+$padding-base-vertical:         7px !default;
+$padding-base-horizontal:       18px !default;
+
+$padding-round-vertical:        9px !default;
+$padding-round-horizontal:     18px !default;
+
+$padding-simple-vertical:      10px !default;
+$padding-simple-horizontal:    18px !default;
+
+$padding-large-vertical:       11px !default;
+$padding-large-horizontal:     30px !default;
+
+$padding-small-vertical:        4px !default;
+$padding-small-horizontal:     10px !default;
+
+$padding-xs-vertical:           2px !default;
+$padding-xs-horizontal:         5px !default;
+
+$padding-label-vertical:        2px !default;
+$padding-label-horizontal:     12px !default;
+
+
+$border-radius-none:             0px !default;
+$border-radius-btn-small:      26px !default;
+$border-radius-btn-base:       20px !default;
+$border-radius-btn-large:      50px !default;
+
+
+$margin-bottom:                0 0 10px 0 !default;
+$border-radius-small:           3px !default;
+$border-radius-base:            4px !default;
+$border-radius-large:           6px !default;
+$border-radius-x-large:         8px !default;
+$border-radius-extreme:         12px !default;
+
+ 
+$font-size-base:               14px !default;
+$font-size-small:              12px !default;
+$font-size-medium:             16px !default;
+$font-size-large:              20px !default;
+$font-size-large-navbar:       22px !default;
+
+$font-size-h1:                 3.6em !default;
+$font-size-h2:                 2.8em !default;
+$font-size-h3:                 1.825em !default;
+$font-size-h4:                 1.6em !default;
+$font-size-h5:                 1.35em !default;
+$font-size-h6:                 0.9em !default;
+$font-paragraph:               15px !default;
+$font-size-navbar:             14px !default;
+
+$font-size-info-horizontal:    2.5em !default;
+
+$font-weight-light:          300 !default;
+$font-weight-normal:         400 !default;
+$font-weight-semi:           500 !default;
+$font-weight-bold:           600 !default;
+
+$line-height-small:            20px !default;
+$line-height-general:          1.5em !default;
+$line-height:                 36px !default;
+$line-height-lg:              54px !default;
+
+$navbar-padding-a:               10px 15px;
+$navbar-margin-a:                15px  3px;
+
+$navbar-margin-a-btn:            15px 3px;
+$navbar-margin-a-btn-round:      16px 3px;
+
+$navbar-padding-a-icons:         6px 15px;
+$navbar-margin-a-icons:          6px  3px;
+
+$navbar-padding-brand:           20px 15px;
+$navbar-margin-brand:             5px  0px;
+
+$navbar-margin-brand-icons:      12px auto;
+
+$navbar-margin-btn:              15px  3px;
+
+$white-navbar:              rgba(#FFFFFF, .96);
+$blue-navbar:               rgba(#34ACDC, .98);
+$azure-navbar:              rgba(#5BCAFF, .98);
+$green-navbar:              rgba(#4CD964, .98);
+$orange-navbar:             rgba(#FF9500, .98);
+$red-navbar:                rgba(#FF4C40, .98);
+
+.footer{
+    background-attachment: fixed;
+    position: relative;
+    line-height: 20px;
+
+    .footer-nav{
+        ul{
+            padding-left: 0;
+            margin-bottom: 0;
+        }
+    }
+}
+.footer nav > ul {
+  list-style: none;
+  font-weight: normal;
+}
+.footer nav > ul > li{
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 15px 3px;
+    line-height: 20px;
+    text-align: center;
+}
+.footer nav > ul a:not(.btn) {
+    color: #777777;
+    display: block;
+    margin-bottom: 3px;
+    line-height: 1.6;
+    opacity: .8;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.footer nav > ul a:not(.btn):hover,
+.footer nav > ul a:not(.btn):focus {
+  color: #777777;
+  opacity: 1;
+}
+.footer .copyright {
+  color: #777777;
+  padding: 10px 0px;
+  font-size: 14px;
+  margin: 15px 3px;
+  line-height: 20px;
+  text-align: center;
+}
+.footer .heart{
+    color: #EB5E28;
+}
+.footer{
+    background-color: $white-color;
+    line-height: $line-height;
+
+    &.footer-black{
+        h4{
+            color: $white-color;
+        }
+    }
+
+    .links{
+        display: inline-block;
+
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            font-weight: $font-weight-bold;
+
+            > li{
+                display: inline-block;
+                padding-right: 20px;
+            }
+            > li:last-child{
+                padding-right: 0px;
+            }
+
+            a:not(.btn){
+                color: $font-color;
+                display: block;
+                font-size: $font-size-h6;
+                margin-bottom: 3px;
+                &:hover,
+                &:focus{
+                    color: $default-states-color;
+                }
+            }
+
+            &.uppercase-links{
+                text-transform: uppercase;
+            }
+            &.stacked-links{
+                margin-top: 10px;
+
+                > li{
+                    display: block;
+                    line-height: 26px;
+                }
+                h4{
+                    margin-top: 0px;
+                }
+            }
+        }
+    }
+    .social-area{
+        padding: 15px 0;
+        .btn{
+            margin-bottom: 3px;
+            padding: 8px;
+            i{
+                margin-right: 0 !important;
+                color: #fff;
+            }
+        }
+    }
+    hr{
+        border-color: $medium-gray;
+        border-width: 1px 0 0;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .copyright{
+        color: brown;
+        font-size: 0.9em;
+        ul > li{
+            padding-right: 0px;
+        }
+    }
+    .title{
+        color: $default-states-color;
+    }
+}

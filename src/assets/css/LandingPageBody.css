@@ -1,0 +1,163 @@
+.section {
+  padding: 70px 0;
+  position: relative;
+  background-color: #FFFFFF;
+}
+
+.section-with-space {
+  padding: 60px 0;
+}
+
+.section-gray {
+  background-color: #EEEEEE;
+}
+
+.section-nude {
+  background-color: gray;
+}
+
+.section-gold {
+  background-color: #caac90;
+  color: #FFFFFF;
+}
+
+.section-brown {
+  background-color: #A59E94;
+  color: #FFFFFF;
+}
+
+.section-light-blue {
+  background-color: #51cbce;
+  color: #FFFFFF;
+}
+
+.section-dark-blue {
+  background-color: #506367;
+  color: #FFFFFF;
+}
+
+.section-dark {
+  background-color: #0b1011;
+}
+
+.section-image,
+.section-gold,
+.section-dark {
+  position: relative;
+}
+.section-image .title,
+.section-image .info-title,
+.section-image .card-plain .card-title,
+.section-gold .title,
+.section-gold .info-title,
+.section-gold .card-plain .card-title,
+.section-dark .title,
+.section-dark .info-title,
+.section-dark .card-plain .card-title {
+  color: #FFFFFF !important;
+}
+.section-image .category,
+.section-image .description,
+.section-image .card-plain .card-description,
+.section-image .card-plain .card-category,
+.section-gold .category,
+.section-gold .description,
+.section-gold .card-plain .card-description,
+.section-gold .card-plain .card-category,
+.section-dark .category,
+.section-dark .description,
+.section-dark .card-plain .card-description,
+.section-dark .card-plain .card-category {
+  color: rgba(255, 255, 255, 0.7);
+}
+.section-image hr,
+.section-gold hr,
+.section-dark hr {
+  border-color: rgba(255, 255, 255, 0.19);
+}
+
+.page-header .title,
+.page-header .info-title,
+.carousel-caption .title,
+.carousel-caption .info-title {
+  color: #FFFFFF;
+}
+
+[class*=features-],
+[class*=team-],
+[class*=projects-],
+[class*=pricing-],
+[class*=testimonials-],
+[class*=contactus-] {
+  padding: 80px 0;
+}
+
+.section-image {
+  background-position: center center;
+  background-size: cover;
+}
+.section-image:before {
+  background-color: rgba(0, 0, 0, 0.5);
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+.section-image .container {
+  position: relative;
+  z-index: 2;
+}
+
+.section-login {
+  min-height: 700px;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  /* IE10+ CSS styles go here */
+  .page-header .content-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -75%);
+  }
+  .page-header .presentation-title {
+    background: none !important;
+  }
+}
+.main .section:first-of-type {
+  position: relative;
+  z-index: 2;
+}
+
+[class*=features-],
+[class*=team-],
+[class*=projects-],
+[class*=pricing-],
+[class*=testimonials-],
+[class*=contactus-] {
+  padding: 80px 0;
+}
+
+.section-image {
+  background-position: center center;
+  background-size: cover;
+}
+.section-image:before {
+  background-color: rgba(0, 0, 0, 0.5);
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+.section-image .container {
+  position: relative;
+  z-index: 2;
+}
